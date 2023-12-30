@@ -60,12 +60,16 @@ The example provided simply extracts a list of visible users on the Linkedin fee
 ```javascript
 function exampleAutomations() {
   let users = [];
+
+  // Get all divs in the feed containing the user details of each post
   const userDetailsDivs = document.querySelectorAll(
     ".update-components-actor__meta"
   );
 
   for (let i = 0; i < userDetailsDivs.length; i++) {
     const userDetailsDiv = userDetailsDivs[i];
+
+    // extracting the name and job title
     const user = {
       name: userDetailsDiv.querySelector(
         '.update-components-actor__name span[aria-hidden="true"]'
