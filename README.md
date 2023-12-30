@@ -97,9 +97,11 @@ You are to display the list of names using the alert() as show in the example fu
 
 Don't worry if you are unable to complete the task successfully, the purpose of this project is to gauge your thought process and problem solving skills. Feel free to leverage AI tools like ChatGPT as you see fit.
 
-As part of your submission, I would like you to document the entire process including any challenges you may have faced and how you solved it, Include this in your README file.
+As part of your submission, I would like you to document the entire process including any challenges you may have faced and how you solved them, Include this in your README file.
 (P.s. If you used ChatGPT, i'd like to know how you used it too!)
 
 Simply shoot me an email with a link to your repository with a READMe file when you're done or submit a pull request to original repository. Happy Coding! 
+
+Do reach out to me if you're having difficulty setting the project up or if the instruction aren't clear enough.
 
 
