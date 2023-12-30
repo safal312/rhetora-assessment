@@ -1,19 +1,10 @@
 console.log("SCRIPT LOADED");
 
+// lisening for click events
 window.onclick = function (event) {
-  if (!event.target.matches(".dropdown button")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
-
   if (event.target.matches("#toggle-dropdown")) {
+    // show dropdown options
     var div = document.getElementById("dropdownContent");
-    console.log(div.style.display);
     div.style.display = div.style.display !== "flex" ? "flex" : "none";
   }
 
@@ -30,12 +21,16 @@ window.onclick = function (event) {
 
 function exampleAutomations() {
   let users = [];
+
+  // Get all divs in the feed containing the user details of each post
   const userDetailsDivs = document.querySelectorAll(
     ".update-components-actor__meta"
   );
 
   for (let i = 0; i < userDetailsDivs.length; i++) {
     const userDetailsDiv = userDetailsDivs[i];
+
+    // extracting the name and job title
     const user = {
       name: userDetailsDiv.querySelector(
         '.update-components-actor__name span[aria-hidden="true"]'
