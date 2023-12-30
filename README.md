@@ -16,8 +16,8 @@ These instructions will get you a copy of the project up and running on your loc
      
 #### Installing the Extension
   1. Type in `chrome://extensions` on a Google Chrome tab.
-  2. In the type right corner, enable "Developer Mode"
-  3. Now on the left hand side, you'll find a button that says "Load Unpacked"
+  2. In the top right corner of the page, enable "Developer Mode"
+  3. Now on the left hand side of the page, you'll find a button that says "Load Unpacked"
   4. Upload the source directory you cloned
 
 
@@ -91,7 +91,12 @@ function exampleAutomations() {
 As mentioned earlier, your task is to write a function that clicks to view the reactions of any post on the screen and return the list of names of people who liked the post. 
 You are to display the list of names using the alert() as show in the example function. (Bonus points if you're able to extract all the names who liked/reacted with the post i.e. scroll down to the bottom of the list)
 
-<img src="https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/eac83a96-dd07-470e-b786-e5414ff86f9e" height="500"> 
+
+<img src="https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/eac83a96-dd07-470e-b786-e5414ff86f9e" height="400"> 
+
+### Testing
+Due to this being a chrome extension, you will need to refresh the page for your changes to reflect on the screen (No hot reloading :/). If that doesnt work, try updating or re-installing the extension in `chrome://extensions`
+
 
 ## Considerations & Submission
 
