@@ -1,4 +1,4 @@
-console.log("Content script loaded.", window.location.href);
+console.log("Content script loaded.");
 
 function injectScript(scriptFile, cssFile) {
   const script = document.createElement("script");
@@ -20,7 +20,6 @@ function injectHTML(filePath, scriptFile) {
   fetch(chrome.runtime.getURL(filePath))
     .then((response) => response.text())
     .then((data) => {
-      console.log(data);
       const target =
         document.querySelector(".authentication-outlet") ?? document.body;
       const container = document.createElement("div");
