@@ -89,7 +89,7 @@ function exampleAutomations() {
 
 ### Your Task
 As mentioned earlier, your task is to write a function that clicks to view the reactions of any post on the screen and return the list of names of people who liked the post. 
-You are to display the list of names using the alert() as show in the example function. (Bonus points if you're able to extract all the names who liked/reacted with the post i.e. scroll down to the bottom of the list)
+You are to display the list of names using the alert() as shown in the example function. (Bonus points if you're able to extract all the names who liked/reacted with the post i.e. scroll down to the bottom of the list)
 
 
 <img src="https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/eac83a96-dd07-470e-b786-e5414ff86f9e" height="400"> 
