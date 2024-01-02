@@ -109,7 +109,7 @@ Don't worry if you are unable to complete the task successfully, the purpose of 
 As part of your submission, I would like you to document the entire process including any challenges you may have faced and how you solved them, Include this in your README file.
 (P.s. If you used ChatGPT, i'd like to know how you used it too!)
 
-Simply shoot me an email with a link to your repository with a READMe file when you're done or submit a pull request to original repository. Happy Coding! 
+Simply shoot me an email with a link to your repository with a READMe file when you're done (Do not open a pull request!). Happy Coding! 
 
 Do reach out to me if you're having difficulty setting the project up or if the instruction aren't clear enough.
 
