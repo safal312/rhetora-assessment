@@ -20,16 +20,13 @@ These instructions will get you a copy of the project up and running on your loc
   3. Now on the left hand side of the page, you'll find a button that says "Load Unpacked"
   4. Upload the source directory you cloned
 
-
-![Screenshot 2023-12-30 at 6 10 48 PM](https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/23dd03e3-2c37-44f1-b039-39238be1a334)
-
-
+![293464550-23dd03e3-2c37-44f1-b039-39238be1a334](https://github.com/Rhetora-ai/intern-assessment/assets/127103858/3dbe8c19-75e1-4c05-b141-a425d3a91551)
 
 ## Implementation
 Now that the extension is installed, head over to your [linkedin homepage](https://linkedin.com), you should find a little button on the left hand side that says "Automations". 
 Upon clicking, under it you'll find 2 buttons. One that executes an example, and the next one is for your task.
 
-<img src="https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/2e229411-13a2-43c5-babb-a2588296c448" height="500"> ![Screenshot 2023-12-30 at 6 35 49 PM](https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/b0ffdeb4-c097-4883-a52d-7cf8e89eb1e5)
+<img src="https://github.com/Rhetora-ai/intern-assessment/assets/127103858/8621d976-25d9-4241-b29a-e5adb65e517e" height="500"> ![3](https://github.com/Rhetora-ai/intern-assessment/assets/127103858/1057059f-2f5e-40a2-92b6-b0d339522f06)
 
 ### Instructions
 
@@ -89,14 +86,13 @@ function exampleAutomations() {
 ```
 
 #### Example Output
-![Screenshot 2023-12-30 at 6 46 36 PM](https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/9b299160-f3c9-4cfa-b0e8-506403440bb8)
+![4](https://github.com/Rhetora-ai/intern-assessment/assets/127103858/0ef580c9-55e8-4032-b909-10c9ba4066f2)
 
 ### Your Task
 As mentioned earlier, your task is to write a function that clicks to view the reactions of any post on the screen and return the list of names of people who liked the post. 
 You are to display the list of names using the alert() as shown in the example function. (Bonus points if you're able to extract all the names who liked/reacted with the post i.e. scroll down to the bottom of the list)
 
-
-<img src="https://github.com/Rhetora-ai/Internship-assessment/assets/127103858/eac83a96-dd07-470e-b786-e5414ff86f9e" height="400"> 
+<img src="https://github.com/Rhetora-ai/intern-assessment/assets/127103858/7987194f-5ee9-49f5-9b9b-983e4ac95542" height="400"> 
 
 ### Testing
 Due to this being a chrome extension, you will need to refresh the page for your changes to reflect on the screen (No hot reloading :/). If that doesnt work, try updating or re-installing the extension in `chrome://extensions`
