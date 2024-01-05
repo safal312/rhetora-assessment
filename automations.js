@@ -98,32 +98,13 @@ function yourAutomation() {
     // get reactors list
     const reactors_list = await waitForElm('ul', reactors_body);
     // console.log(total_reactors_int)
+    let reactors;
     let reactors_len = 0
-
-    let all_reactors = "";
 
     // loop until all reactors are loaded
     while (reactors_len <= total_reactors_int) {
-      let reactors = reactors_list.querySelectorAll("li")
+      reactors = reactors_list.querySelectorAll("li")
       reactors_len = reactors.length
-
-      // console.log(reactors_len)
-
-      reactors.forEach((li) => {
-        let title = li.querySelector(".artdeco-entity-lockup__title")
-        let span = title.querySelector("span")
-        
-        let profile = "";
-        // if no span, it means the entity is a company or page
-        if (span == null) {
-          profile = title.innerText
-        } else {
-          // otherwise it is a normal profile of someone
-          profile = span.innerText
-        }
-        // console.log(profile)
-        all_reactors += profile + "\n"
-      });
       
       if (reactors_len >= total_reactors_int) break;
       
@@ -142,6 +123,25 @@ function yourAutomation() {
       // wait for 1000ms as buffer time between loops
       await new Promise(r => setTimeout(r, 1000));
     }
+
+    // iterate over each reactor and get their name
+    let all_reactors = "";
+
+    reactors.forEach((li) => {
+      let title = li.querySelector(".artdeco-entity-lockup__title")
+      let span = title.querySelector("span")
+      
+      let profile = "";
+      // if no span, it means the entity is a company or page
+      if (span == null) {
+        profile = title.innerText
+      } else {
+        // otherwise it is a normal profile of someone
+        profile = span.innerText
+      }
+      // console.log(profile)
+      all_reactors += profile + "\n"
+    });
 
     alert(all_reactors)
   }
