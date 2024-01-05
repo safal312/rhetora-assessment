@@ -48,6 +48,7 @@ function exampleAutomations() {
   alert(usersString);
 }
 
+// utility function to wait for an element to load
 function waitForElm(selector, base = document.body) {
   return new Promise(resolve => {
       if (base != null && base.querySelector(selector)) {
@@ -113,9 +114,11 @@ function yourAutomation() {
         let span = title.querySelector("span")
         
         let profile = "";
+        // if no span, it means the entity is a company or page
         if (span == null) {
           profile = title.innerText
         } else {
+          // otherwise it is a normal profile of someone
           profile = span.innerText
         }
         // console.log(profile)
